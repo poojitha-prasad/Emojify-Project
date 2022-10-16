@@ -87,7 +87,7 @@ def show_vid2():
 if __name__ == '__main__':
     root=tk.Tk()
 
-    heading2=Label(root,text="Photo to Emoji",pady=20, font=('arial',45,'b/old'),bg='black',fg='#CDCDCD')
+    heading2=Label(root,text="Photo to Emoji",pady=20, font=('arial',45,'bold'),bg='black',fg='#CDCDCD')
 
     heading2.pack()
     lmain = tk.Label(master=root,padx=50,bd=10)
